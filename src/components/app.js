@@ -1,4 +1,5 @@
 import { Component } from 'preact';
+import Clock from './Clock';
 
 export default class App extends Component {
 	state = { value: '', name: 'world' }
@@ -21,6 +22,7 @@ export default class App extends Component {
 					<input type="text" value={this.state.value} onInput={this.onInput} />
 					<button type="submit">Update</button>
 				</form>
+				<Clock />
 			</div>
 		);
 	}
