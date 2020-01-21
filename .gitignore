@@ -3,5 +3,6 @@ node_modules
 /*.log
 *.lock
 .idea/
+.idea/**/workspace.xml
 
 package-lock.json
